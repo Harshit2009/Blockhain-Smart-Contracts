@@ -1,0 +1,163 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_voteIndex",
+						"type": "uint256"
+					}
+				],
+				"name": "vote",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_candidate1",
+						"type": "string"
+					},
+					{
+						"name": "_candidate2",
+						"type": "string"
+					},
+					{
+						"name": "_durationMinutes",
+						"type": "uint256"
+					}
+				],
+				"name": "init",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "candidates",
+				"outputs": [
+					{
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"name": "votecount",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "endElection",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "voters",
+				"outputs": [
+					{
+						"name": "voted",
+						"type": "bool"
+					},
+					{
+						"name": "voteIndex",
+						"type": "uint256"
+					},
+					{
+						"name": "weight",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_voter",
+						"type": "address"
+					}
+				],
+				"name": "authrize",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"name": "_candidate",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"name": "_votecount",
+						"type": "uint256"
+					}
+				],
+				"name": "ElectionResult",
+				"type": "event"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"voting.sol": "Election"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"voting.sol": {
+			"keccak256": "0x00faae67593b131ba47e955417483ed287d77a0c604e4276d7b2ff7d2965fd11",
+			"urls": [
+				"bzzr://e08f82a4d1b19626740ef322917a92981882383a87857bbc5958dcea0bc8c6d5"
+			]
+		}
+	},
+	"version": 1
+}

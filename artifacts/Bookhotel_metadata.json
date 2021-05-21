@@ -1,0 +1,87 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "_occupant",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "occupy",
+				"type": "event"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "book",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address payable",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"hotelbookingmodifiers.sol": "Bookhotel"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"hotelbookingmodifiers.sol": {
+			"keccak256": "0xceceb1588731d6bc901987f69c02eaeb2ab5b9e1fddaff4fbfe19dc756624187",
+			"urls": [
+				"bzz-raw://898151713d76f489820832e5789c8ca9c6298cbf854f56d07e9544b8d20a04ec",
+				"dweb:/ipfs/Qmf9w5dGkh1eXXrHzEAjP4UpJgqGjbjqyP8mfpXudpiQNj"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_fName",
+						"type": "string"
+					},
+					{
+						"name": "_age",
+						"type": "uint256"
+					}
+				],
+				"name": "setInstructor",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getInstructor",
+				"outputs": [
+					{
+						"name": "",
+						"type": "string"
+					},
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"basicfunctionmodifier.sol": "Coursetro"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"basicfunctionmodifier.sol": {
+			"keccak256": "0xe1d3deea2ccd3dcf3e2454c77b035326b37e37ab2737f059db3aef9657d7c0f8",
+			"urls": [
+				"bzzr://78d065abf1e6a1f87408983dc339cb1eac61d6f4d2cce8d41a2144493117c116"
+			]
+		}
+	},
+	"version": 1
+}

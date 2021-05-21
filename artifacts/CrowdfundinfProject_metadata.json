@@ -1,0 +1,169 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "fundingproject",
+				"outputs": [
+					{
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"name": "email",
+						"type": "string"
+					},
+					{
+						"name": "website",
+						"type": "string"
+					},
+					{
+						"name": "minimumfunds",
+						"type": "uint256"
+					},
+					{
+						"name": "amountraised",
+						"type": "uint256"
+					},
+					{
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"name": "status",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "stopFundRaising",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"name": "_email",
+						"type": "string"
+					},
+					{
+						"name": "_website",
+						"type": "string"
+					},
+					{
+						"name": "_minimumfunds",
+						"type": "uint256"
+					},
+					{
+						"name": "_owner",
+						"type": "address"
+					}
+				],
+				"name": "CrowdFunding",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"name": "fundProject",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "funders",
+				"outputs": [
+					{
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"name": "fundedby",
+						"type": "address"
+					},
+					{
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getProjectStatus",
+				"outputs": [
+					{
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"CrowdFunding.sol": "CrowdfundinfProject"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"CrowdFunding.sol": {
+			"keccak256": "0x4b24b4a012c410163545419f1c0a1c24a80e5bc84ad0a0fca438356f6e33b8f2",
+			"urls": [
+				"bzzr://2f0e039c32c519a42eddf0fc4073c86954cfa09bb34893fd223978220acba3a5"
+			]
+		}
+	},
+	"version": 1
+}

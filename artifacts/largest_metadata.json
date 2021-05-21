@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"name": "b",
+						"type": "uint256"
+					},
+					{
+						"name": "c",
+						"type": "uint256"
+					}
+				],
+				"name": "largestof3",
+				"outputs": [
+					{
+						"name": "o_big",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"largest.sol": "largest"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"largest.sol": {
+			"keccak256": "0x77cb5ab968ef430e4b2a9bb118e6d9c8ef5fbd6f8a836c07da6ae8826c70d3f9",
+			"urls": [
+				"bzzr://52058de4d4677fc20b8d73f20d93cab7e9cbf185fa4ae9081c8f9d02a7399842"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,51 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "fname",
+				"outputs": [
+					{
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"basics.sol": "Mycontract"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"basics.sol": {
+			"keccak256": "0x6e01791d4c258ce3a71934673f11a918e14e19b3f57db0deee348e416c7f9bc2",
+			"urls": [
+				"bzzr://ea24168b8a0caec881af221bda130cb9adc3b715670e524dc3dfa00c103f178f"
+			]
+		}
+	},
+	"version": 1
+}

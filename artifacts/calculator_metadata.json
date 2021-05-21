@@ -1,0 +1,97 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "a",
+						"type": "int256"
+					},
+					{
+						"name": "b",
+						"type": "int256"
+					}
+				],
+				"name": "Subtract",
+				"outputs": [
+					{
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "a",
+						"type": "int256"
+					},
+					{
+						"name": "b",
+						"type": "int256"
+					}
+				],
+				"name": "Add",
+				"outputs": [
+					{
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "LastOperation",
+				"outputs": [
+					{
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"myetherwallet.sol": "calculator"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"myetherwallet.sol": {
+			"keccak256": "0xf8e89956370ddb782d91e54a8092821f36ff125addc22075b72699266cf5b985",
+			"urls": [
+				"bzzr://b119ddcee4386edaac5384f34df9e0229f0181dedde215b454435adc27c06586"
+			]
+		}
+	},
+	"version": 1
+}
